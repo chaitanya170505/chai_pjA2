@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    border:none;
+    outline:none;
+}
+
+body{
+    background-image: url(./Assets/background.png);
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    border: 2px solid white;
+    backdrop-filter: blur(12px);
+    min-height: 600px;
+    min-width: fit-content;
+    height: 90%;
+    width: 80%;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.search{
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+}
+
+.img .search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+}
+
+.img .search input{
+     width: 80%;
+     height: 40px;
+     padding: 10px;
+     border-radius: 20px;
+     margin-left: 10px;
+     background-color: rgb(233, 226, 215);
+}
+
+input:hover{
+    border: 3px solid rgb(247, 222, 80);
+}
+
+.img .search button{
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(137, 137, 132);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.img .search button:hover{
+    background-color: rgb(247, 222, 80);
+
+}
+
+
+
+.welcome{
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+  
+}
+
+hr {
+    border: none;
+    border-top: 2px solid rgb(255, 255, 255); 
+    margin: 10px 0; 
+}
+
+.meaning{
+    width: 100%;
+    padding: 40px;
+    color: aliceblue;
+}
+
+.meaning_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.meaning_des{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.1rem;
+}
+
+.icon:hover{
+    cursor: pointer;
+    color: rgb(247, 222, 80);
+    animation: slidein 2s ease-in-out;
+}
+
+@keyframes slidein {
+    from {
+    transform: scaleX(1.5) scaleY(1.5);
+    }
+    to{
+    transform: scaleX(1.5) scaleY(1.5);
+    }
+}
+

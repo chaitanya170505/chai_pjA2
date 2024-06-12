@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dictionary Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="shortcut icon" href="#">
+  <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div class="img">
+
+      <form id="myForm" class="search">
+      <div class="search">
+        <input type="text" id="fname" name="fname" placeholder="Enter Word"><br>
+        <button type="submit" class="Sbutton" id="search">Search</button>
+      </div>
+    </form>
+
+      <div class="welcome" id="Welcome">
+        <h1 id="welcome_m">Welcome to Dictionary Website!</h1>
+        <p id="welcome_p">Enter a word and click on search to get the meaning</p>
+      </div>
+
+
+      <div class="meaning" style="display: none;" id="meanDiv">
+        <div class="meaning_head">
+              <h1 id="Word">Hello</h1>
+              <i class="fa-solid fa-volume-high icon" id="speech"></i>
+        </div>
+        <hr>
+        <div class="meaning_des">
+              <p id="parts">Not Found</p>
+              <p> / </p>
+              <p id="phonetics">Not Found</p>
+        </div>
+        <br>
+        <br>
+        <h2>Meaning : </h2>
+        <br>
+        <p style="font-size: 1.2rem;" id="MeaningS">Not Found</p>
+        
+        <br>
+        <br>
+        <h2>Synonyms :</h2>
+        <br>
+        <p style="font-size: 1.2rem;" id="Synonyms">Not Found</p>
+        <br>
+        <br>
+        <h2>Example Sentence :</h2>
+        <br>
+        <p style="font-size: 1.2rem;" id="Example">Not Found</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/index.js"></script>
+</body>
+</html>
