@@ -23,7 +23,7 @@ body{
     backdrop-filter: blur(12px);
     min-height: 600px;
     min-width: fit-content;
-    height: 90%;
+    height: fit-content;
     width: 80%;
     min-width: fit-content;
     display: flex;
